@@ -32,10 +32,10 @@ instant    = { version = "0.1", features = [ "stdweb", "now" ]}
 simba      = "0.1"
 nalgebra   = "0.21"
 kiss3d     = { version = "0.24", features = [ "conrod" ] }
-ncollide2d = "0.23"
+ncollide2d =  { git ="https://github.com/jannickj/ncollide", tag= "v0.23.0-with-mask-v3" }
 wrapped2d  = { version = "0.4", optional = true }
 salva2d = { version = "0.2", features = [ "nphysics" ], optional = true }
 
 [dependencies.nphysics2d]
 path = "../nphysics2d"
-version = "0.14"
+version = "0.15"
